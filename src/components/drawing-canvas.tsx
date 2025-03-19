@@ -7,6 +7,7 @@ import { Circle, Layer, Line, Rect, Stage, Text } from "react-konva";
 import type { DrawingElement, Point } from "../types";
 
 export const DrawingCanvas: React.FC = () => {
+	if (typeof window === "undefined") return null;
 	const {
 		elements,
 		selectedTool,
