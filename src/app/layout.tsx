@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
 	title: "Chitrkari",
-	description: "",
+	description: "Unleash Your Creativity Instantly",
 };
 
 export default function RootLayout({
